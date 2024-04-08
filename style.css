@@ -38,15 +38,8 @@ background-color: #1b961b;
   margin-right: 0;
 }
 
-@media (max-width:376px) {
-  #logo-img{
-    width: 40px;
-    height: 40px;
-  }
-  #text-ngo{
-    font-size: 14px;
-  }
-}
+
+
 
 
 #mynavbar ul li a {
@@ -118,10 +111,22 @@ background-color: #1b961b;
   }
 }
 
-#text-ngo {
+.navbar-text{
   color: rgb(255, 255, 255);
   font-weight: 600;
   margin: auto;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width:500px) {
+  #logo-img{
+    width: 40px;
+    height: 40px;
+  }
+  #text-ngo{
+    font-size: 14px;
+  }
 }
 
 #btn {
